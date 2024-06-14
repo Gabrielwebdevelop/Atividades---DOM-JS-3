@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades - DOM JS 3</title>
+    
+</head>
+<body>
+    <!--
+        Faça uma conta de Somar, Subtrair, Multiplicar e Dividir, utilizando os elementos GET e o HTML para digitar os dados.
+    -->
+    
+    <div>
+        <form action="script.js">
+            <!--Adicao-->
+            <h2>Adiçao</h2>
+            <label>
+                Digite o primeiro numero:            
+            </label>
+            <input type="text" id="primeiroAdi" placeholder="Digite o primeiro número">
+<br><br>
+            <label>
+                Digite o segundo numero:            
+            </label>
+            <input type="text" id="segundoAdi" placeholder="Digite o segundo numero">
+            <br><br>
+            <div id="resultadoAdi"></div>
+            <input type="button" value="Resultado da soma" onclick="resultadoSoma()">
+            
+            <!--Subtracao-->
+            <h2>Subtracao</h2>
+
+            <label> 
+                Digite o primeiro numero:
+            </label>
+            <input type="text" id="primeiroSub" placeholder="Digite o primeiro número:">
+            <br><br>
+            <label>Digite o segundo número:</label>
+            <input type="text" id="segundoSub" placeholder="Digite o segundo núimero">
+            <br><br>
+            <div id="resultadoSub"></div>
+            <br>
+            <input type="button" value="Resultado da Subtracao" onclick="resultadoSubtracao()">
+            <br><br>
+
+            <!--Multiplicacao-->
+            <h2>Multiplicacao</h2>
+            <label>
+                Digite o primeiro numero:
+            </label>
+            <input type="text" id="primeiroMul" placeholder="Digite o primeiro numero">
+            <br><br>
+            <label>
+                Digite o segundo numero:
+            </label>
+            <input type="text" id="segundoMul" placeholder="Digite o segundo numero">
+            <br><br>
+            <div id="resultadoMult"></div>
+            <br>
+            <input type="button" value="Resultado da Multiplicacao" onclick="resultadoMultiplicacao()">
+            
+            <!--Divisao-->
+            <h2>Divisao</h2>
+            <label>
+                Digite o primeiro número:
+            </label>
+            <input type="text" id="primeiroDiv" placeholder="Digite o primeiro número">
+            <br><br>
+            <label>
+                Digite o segundo número:
+            </label>
+            <input type="text" id="segundoDiv" placeholder="Digite o segundio número">
+            <br><br>
+            <input type="button" value="Resultado da divisao" onclick="resultadoDivisao()">
+            <br><br>
+            <div id="resultadoDiv">O resultado é: </div>
+            <br>
+            
+            <br><br>
+            
+        </form>
+
+        
+    </div>
+    <script src="../Atividades - DOM JS 3/script.js"></script>
+</body>
+</html>
